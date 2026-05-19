@@ -9,3 +9,8 @@ I had to replicate this page:
 Result:
 
 ![Image of webpage I replicated](resources/end-page.png)
+
+Local testing server: 
+```bash
+python3 -m http.server 8000
+```
