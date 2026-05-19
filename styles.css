@@ -32,3 +32,38 @@ body {
   color: white;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+#nami {
+  width: 20em;
+  padding-top: 10px;
+}
+
+.main-content {
+  padding-top: 5.5rem;
+}
+
+.button {
+  background-color: orange;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100px; 
+  height: 30px;
+}
+
+.cta-container a, .main-content a {
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: blue;
+  color: orange;
+}
