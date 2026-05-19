@@ -41,6 +41,7 @@ body {
 #nami {
   width: 20em;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .main-content {
@@ -66,4 +67,31 @@ body {
 .button:hover {
   background-color: blue;
   color: orange;
+}
+
+.mid-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.mid-section-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.mid-section-item {
+  width: 15em;
+}
+
+.mid-section-item p {
+  text-align: center;
+}
+
+.mid-section-container img {
+  width: 15em;
+  height: 15em;
 }
