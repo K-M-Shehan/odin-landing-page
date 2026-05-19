@@ -102,3 +102,24 @@ body {
   padding: 7rem 0;
   font-size: 1.5rem;
 }
+
+.main-cta {
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 6rem 0;
+}
+
+.cta-container {
+  background-color: rgb(128 128 128 / 50%);
+  display: flex;
+  margin: 0 35rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 10rem;
+}
+
+footer {
+  text-align: center;
+}
