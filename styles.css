@@ -3,10 +3,12 @@
   justify-content:space-between;
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 .logo {
   width: 70px;
+  padding-left: 16px;
 }
 
 ul {
@@ -17,10 +19,16 @@ ul {
 
 ul li {
   float: left;
-  padding: 14px 16px;
+  padding: 34px 26px;
 }
 
-a {
+ul li a {
   text-decoration: none;
   color: black;
 }
+
+body {
+  background-color: black;
+  color: white;
+}
+
